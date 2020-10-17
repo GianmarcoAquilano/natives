@@ -17,4 +17,6 @@ int GET_SHAPE_TEST_RESULT_INCLUDING_MATERIAL(int rayHandle, BOOL* hit, Vector3* 
 * **materialHash**: hash of the hit material or surface type, see materialFX.dat
 * **entityHit**: 
 
+[Material list](https://d0p3t.nl/enums/materialhash.html#plastersolid)
+
 ## Return value
