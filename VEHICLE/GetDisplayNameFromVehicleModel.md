@@ -13,7 +13,7 @@ Returns model name of vehicle in all caps. Needs to be displayed through localiz
 -----------------------------------------------------------------------------------------------------------------------------------------  
 While often the case, this does not simply return the model name of the vehicle (which could be hashed to return the model hash). Variations of the same vehicle may also use the same display name.  
 -----------------------------------------------------------------------------------------------------------------------------------------  
-Returns "CARNOTFOUND" if the hash doesn't match a vehicle hash.  
+Returns "CARNOTFOUND" if the hash doesn't match a vehicle hash. The characters read by game are max of 11 (police_boat will be truncated into police_boa)  
 Using UI::_GET_LABEL_TEXT, you can get the localized name.  
 For a full list, see here: pastebin.com/wvpyS4kS (pastebin.com/dA3TbkZw)  
 ```
